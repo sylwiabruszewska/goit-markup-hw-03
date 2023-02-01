@@ -34,6 +34,7 @@ h1 {
 .page-header {
   border-bottom: 1px solid #ececec;
   background-color: #fff;
+  padding: 24px;
 }
 
 .section {
@@ -46,7 +47,6 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
 }
 
 .main-nav-list {
