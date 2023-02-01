@@ -175,6 +175,7 @@ h2 {
 
 .buttons {
   margin-bottom: 34px;
+  text-align: center;
 }
 
 .button-portfolio {
@@ -202,7 +203,23 @@ h2 {
 
 .portfolio-cards {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.portfolio-card-item {
+  margin: 15px;
+}
+
+.portfolio-card-caption {
+  padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
+
+.portfolio-card-caption p:first-child {
+  margin-bottom: 4px;
 }
 
 .portfolio-card-title {
@@ -256,7 +273,8 @@ h2 {
   margin: 0;
 } */
 
-figure {
+figure.img-card-item,
+figure.staff-card-item {
   margin: 0;
 }
 
