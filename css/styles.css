@@ -46,7 +46,7 @@ h1 {
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .main-nav-list {
@@ -65,6 +65,7 @@ h1 {
 
 .contact-link-list {
   display: flex;
+  margin-left: auto;
 }
 
 .contact-link-item {
