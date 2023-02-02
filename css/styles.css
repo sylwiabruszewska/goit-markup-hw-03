@@ -289,8 +289,8 @@ h1 {
   margin: 0;
 } */
 
-figure.img-card-item,
-figure.staff-card-item {
+.img-card-item,
+.staff-card-item {
   margin: 0;
 }
 
